@@ -1,0 +1,60 @@
+:root{
+      
+    --whhite:#FFFFFF;
+    --blue:#94CFFF;
+    --blockquout:#0A3853;
+    --grey: #000000;
+    --btnblue:#26C7EA;
+    --btnbg:#0B0E66;
+}
+h1,p,blockquote,section,div,h2,ul,button,a,h4{
+    padding: 0;
+    margin: 0 ;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
+img,button,cite,a{
+    display: block;
+}
+.container{
+    width: 1062px;
+    padding: 0 15px;
+    margin: 0 auto ;
+}
+body{
+    --font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size:24px;
+
+}
+.header{
+    padding: 57px; 
+    padding-top:36px;
+}
+.header .container{
+    display: flex;
+    align-items : center;
+    justify-content: space-between;
+}
+.nav-list{
+    display: flex;
+    gap:38px;
+}
+.nav-list-link{
+font-family: var(--font-family);
+font-weight: 600;
+font-size: 20px;
+text-align: center;
+color: #FFFFFF;
+}
+.nav-list-link:hover {
+    color: var(--blue);
+}
